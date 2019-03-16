@@ -1,3 +1,4 @@
+#!/usr/bind/env node
 const { exec } = require("child_process");
 
 let folder = process.argv[2];
