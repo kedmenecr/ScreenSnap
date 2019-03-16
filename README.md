@@ -21,6 +21,6 @@ It will save in a folder called ScreenSnapShots with a default interval of 1 sec
 
 Ctrl + C!
 
-## Does it automatically continue to record after I've closed my laptop?
+## Does it automatically continue to record after I've closed my laptop and reopened it?
 
-Yes!
+Yes! It stops when the screen is on Sleep on continus when you wake him up.
