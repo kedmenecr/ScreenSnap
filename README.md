@@ -13,6 +13,10 @@ screensap myAwsomeProject 2
 
 This will make a screenshot of you main screen every 2 second untill the process is stopped.
 
+## Or just use the default settings
+
+It will save in a folder called ScreenSnap with a default interval of 1 second.
+
 ## How to exit?
 
 Ctrl + C!

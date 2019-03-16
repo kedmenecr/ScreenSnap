@@ -1,8 +1,15 @@
-#!/usr/bind/env node
-const { exec } = require("child_process");
+#!/usr/bin/env node
 
-let folder = process.argv[2];
-let sleepTime = process.argv[3];
+const { exec } = require("child_process");
+let folder = "ScreenSnap";
+let sleepTime = 1;
+if (process.argv[2]) {
+  folder = process.argv[2];
+}
+
+if (process.argv[3]) {
+  sleepTime = process.argv[3];
+}
 
 exec(`cd && mkdir ${folder}`, err => {
   if (err) {

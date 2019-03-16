@@ -14,8 +14,12 @@
     "type": "git",
     "url": "git+https://github.com/kedmenecr/devLapse.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "screensnap",
+    "capture",
+    "screen"
+  ],
+  "author": "Roberto Kedmenec",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/kedmenecr/devLapse/issues"
