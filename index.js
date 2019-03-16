@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 const { exec } = require("child_process");
-let folder = "ScreenSnap";
+let folder = "ScreenSnapShots";
 let sleepTime = 1;
 if (process.argv[2]) {
   folder = process.argv[2];

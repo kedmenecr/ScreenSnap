@@ -1,6 +1,6 @@
 {
   "name": "screensnap",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "ScreenSnap is a simple tool which makes screenshots of your screen!",
   "main": "index.js",
   "bin": {

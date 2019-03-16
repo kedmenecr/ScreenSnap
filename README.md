@@ -11,17 +11,16 @@ You just call it with screensnap "folder" -intervalBetweenScreenShotsInSecond
 screensap myAwsomeProject 2
 ```
 
-This will make a screenshot of you main screen every 2 second untill the process is stopped.
+This will make a screenshot of your main screen every 2 seconds until the process is stopped.
 
 ## Or just use the default settings
 
-It will save in a folder called ScreenSnap with a default interval of 1 second.
+It will save in a folder called ScreenSnapShots with a default interval of 1 second.
 
 ## How to exit?
 
 Ctrl + C!
 
-## Does it automaticly continue to record after I've closed my laptop?
+## Does it automatically continue to record after I've closed my laptop?
 
-OFC!
-What the hell do you think I am :P
+Yes!
