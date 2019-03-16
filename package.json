@@ -1,11 +1,11 @@
 {
-  "name": "devLapse",
+  "name": "screensnap",
   "version": "1.0.0",
-  "description": "",
+  "description": "ScreenSnap is a simple tool which makes screenshots of your screen!",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",

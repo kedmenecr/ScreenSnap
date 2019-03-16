@@ -1,23 +1,23 @@
 const { exec } = require("child_process");
 
-// second parameter is the folder name
 let folder = process.argv[2];
+let sleepTime = process.argv[3];
 
 exec(`cd && mkdir ${folder}`, err => {
   if (err) {
-    console.log("not gonna happen");
+    console.log("Folder is already taken");
   }
 });
 
 exec(
-  `while [ 1 ];do vardate=$(date +%d-%m-%Y_%H.%M.%S); screencapture -t jpg -x ~/Projects/Gh/devLaps-ss/$vardate.jpg; sleep 1; done`,
-  (err, stdout, stderr) => {
+  `while [ 1 ];do vardate=$(date +%d-%m-%Y_%H.%M.%S);
+   screencapture -t jpg -x ~/${folder}/$vardate.jpg; sleep ${sleepTime}; done `,
+  (err, stdout) => {
     if (err) {
-      // node couldn't execute the command
+      console.log("not gonna happen");
       return;
     }
-    console.log(`stdout: ${stdout}`);
   }
 );
 
-// while [ 1 ];do vardate=$(date +%d\-%m\-%Y\_%H.%M.%S); screencapture -t jpg -x ~/Projects/Gh/devLaps-ss/$vardate.jpg; sleep 1; done
+// }
