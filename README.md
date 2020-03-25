@@ -8,7 +8,7 @@ You can adjust the screenshot folder and the interval!
 You just call it with screensnap "folder" -intervalBetweenScreenShotsInSecond
 
 ```
-screensap myAwsomeProject 2
+screensnap myAwsomeProject 2
 ```
 
 This will make a screenshot of your main screen every 2 seconds until the process is stopped.
